@@ -1,0 +1,21 @@
+api:
+  api_key: 'sk-ws-H.RXRXIRX.gKYq.MEYCIQCW8cK2n-y4-WHUbXhUjsLPswWp1N3Oqn4caM1CVkFqqgIhAK2I1_aPsnon1dzBQDA-siAB4Iex5kPKXFvN5AWrppww'
+  base_url: 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+  model_name: 'qwen3.6-flash'
+
+ui:
+  app_title: 'SmartPurchaseAgent - 智能采购助手'
+  window_width: 1200
+  window_height: 800
+  theme: 'light'
+  primary_color: '#1E90FF'
+
+browser:
+  headless: false
+  window_width: 1280
+  window_height: 960
+  timeout: 120
+
+task:
+  max_concurrent: 2
+  max_retries: 3
